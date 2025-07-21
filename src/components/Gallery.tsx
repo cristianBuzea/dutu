@@ -7,35 +7,35 @@ const Gallery = () => {
       id: 1,
       title: "Kälteanlage mit Kautschuk isolier",
       category: "Wärmeisolierung",
-      image: "/public/gallery/20230127_205018-scaled-e1675456487570.jpg",
+      image: "/gallery/20230127_205018-scaled-e1675456487570.jpg",
       description: "Vollständige Isolierung einer modernen Heizungsanlage mit professioneller Dämmung aller Rohrleitungen und Komponenten"
     },
     {
       id: 2,
       title: "Rohrleitungssystem Sanierung",
       category: "Wärmeisolierung",
-      image: "/public/gallery/20230127_205455-scaled.jpg",
+      image: "/gallery/20230127_205455-scaled.jpg",
       description: "Fachgerechte Erneuerung der Rohrleitungsisolierung mit hochwertigen Dämmmaterialien"
     },
     {
       id: 3,
       title: "Heizungsverteiler Modernisierung",
       category: "Wärmeisolierung",
-      image: "/public/gallery/20230127_205847-scaled.jpg",
+      image: "/gallery/20230127_205847-scaled.jpg",
       description: "Komplette Neuisolierung des Heizungsverteilers für optimale Energieeffizienz"
     },
     {
       id: 4,
       title: "Regenwaser Leitung isolierung",
       category: "Wärmeisolierung",
-      image: "/public/gallery/20230127_210135-scaled.jpg",
+      image: "/gallery/20230127_210135-scaled.jpg",
       description: "Präzise Isolierung einzelner Rohrleitungsabschnitte mit maßgeschneiderten Lösungen"
     },
     {
       id: 5,
       title: "Deckenmontage Rohrleitungen",
       category: "Wärmeisolierung",
-      image: "/public/gallery/20230127_210430-scaled.jpg",
+      image: "/gallery/20230127_210430-scaled.jpg",
       description: "Professionelle Isolierung von Deckenleitungen mit vollständiger Dämmummantelung"
     },
     {

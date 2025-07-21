@@ -12,7 +12,7 @@ const GalleryPage = () => {
       id: 1,
       title: "Kälteanlage mit Kautschuk isolier",
       category: "Wärmeisolierung",
-      image: "/public/gallery/20230127_205018-scaled-e1675456487570.jpg",
+      image: "/gallery/20230127_205018-scaled-e1675456487570.jpg",
       description: "Vollständige Isolierung einer modernen Heizungsanlage mit professioneller Dämmung aller Rohrleitungen und Komponenten. Das Projekt umfasste die komplette Erneuerung der Isolierung sowie die Installation neuer Dämmschalen.",
       year: "2023",
       duration: "3 Tage"
@@ -21,7 +21,7 @@ const GalleryPage = () => {
       id: 2,
       title: "Rohrleitungssystem Sanierung",
       category: "Wärmeisolierung",
-      image: "/public/gallery/20230127_205455-scaled.jpg",
+      image: "/gallery/20230127_205455-scaled.jpg",
       description: "Fachgerechte Erneuerung der Rohrleitungsisolierung mit hochwertigen Dämmmaterialien. Komplette Sanierung eines älteren Rohrleitungssystems mit modernen Isoliermaterialien für optimale Energieeffizienz.",
       year: "2023",
       duration: "2 Tage"
@@ -30,7 +30,7 @@ const GalleryPage = () => {
       id: 3,
       title: "Heizungsverteiler Modernisierung",
       category: "Wärmeisolierung",
-      image: "/public/gallery/20230127_205847-scaled.jpg",
+      image: "/gallery/20230127_205847-scaled.jpg",
       description: "Komplette Neuisolierung des Heizungsverteilers für optimale Energieeffizienz. Modernisierung einer veralteten Heizungsverteilung mit neuen Isoliermaterialien und verbesserter Wärmedämmung.",
       year: "2023",
       duration: "4 Tage"
@@ -39,7 +39,7 @@ const GalleryPage = () => {
       id: 4,
       title: "Rohrleitungen Einzelisolierung",
       category: "Wärmeisolierung",
-      image: "/public/gallery/20230127_210135-scaled.jpg",
+      image: "/gallery/20230127_210135-scaled.jpg",
       description: "Präzise Isolierung einzelner Rohrleitungsabschnitte mit maßgeschneiderten Lösungen. Individuelle Anpassung der Dämmung an spezielle Rohrleitungsführungen und -durchmesser.",
       year: "2023",
       duration: "1 Tag"
