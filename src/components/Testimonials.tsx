@@ -71,7 +71,7 @@ const Testimonials = () => {
               <div className="flex items-center justify-center">
                 <div className="w-16 h-16 rounded-full bg-gray-100 flex items-center justify-center mr-4">
                   <img
-                    src="/public/Screenshot 2025-07-04 at 14.50.49.png"
+                    src="/Screenshot 2025-07-04 at 14.50.49.png"
                     alt="Customer testimonial"
                     className="w-12 h-12 object-contain"
                   />
