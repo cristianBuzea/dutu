@@ -7,21 +7,18 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "M. Schmidt",
-      location: "Ludwigsburg",
       rating: 5,
       text: "Professionelle Arbeit, pünktlich und sauber! Die Heizkosten haben sich bereits nach einem Jahr deutlich reduziert.",
       image: "https://images.pexels.com/photos/3785077/pexels-photo-3785077.jpeg?auto=compress&cs=tinysrgb&w=150"
     },
     {
       name: "A. Müller",
-      location: "Stuttgart",
       rating: 5,
       text: "Herr Dutu hat unsere Industrieanlage komplett isoliert. Exzellente Qualität und faire Preise. Sehr empfehlenswert!",
       image: "https://images.pexels.com/photos/3777553/pexels-photo-3777553.jpeg?auto=compress&cs=tinysrgb&w=150"
     },
     {
       name: "K. Weber",
-      location: "München",
       rating: 5,
       text: "Kompetente Beratung und schnelle Umsetzung. Die Kälteisolierung funktioniert perfekt. Danke für die tolle Arbeit!",
       image: "https://images.pexels.com/photos/3760263/pexels-photo-3760263.jpeg?auto=compress&cs=tinysrgb&w=150"
@@ -74,14 +71,13 @@ const Testimonials = () => {
               <div className="flex items-center justify-center">
                 <div className="w-16 h-16 rounded-full bg-gray-100 flex items-center justify-center mr-4">
                   <img
-                    src="/Screenshot 2025-07-04 at 14.50.49.png"
+                    src="/public/Screenshot 2025-07-04 at 14.50.49.png"
                     alt="Customer testimonial"
                     className="w-12 h-12 object-contain"
                   />
                 </div>
                 <div>
                   <div className="font-bold text-gray-800">{testimonials[currentIndex].name}</div>
-                  <div className="text-gray-600">{testimonials[currentIndex].location}</div>
                 </div>
               </div>
             </div>

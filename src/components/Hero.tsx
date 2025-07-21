@@ -6,12 +6,12 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-blue-900/90 via-blue-800/80 to-green-700/90"></div>
-      <div className="absolute inset-0 bg-[url('/WhatsApp%20Image%202025-06-28%20at%208.08.42%20AM.jpeg')] bg-cover bg-center opacity-30"></div>
+      <div className="absolute inset-0 bg-[url('/public/WhatsApp%20Image%202025-06-28%20at%208.08.42%20AM.jpeg')] bg-cover bg-center opacity-30"></div>
       
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight pt-4">
+          <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
             Profitieren Durch Isolieren
           </h1>
           <h2 className="text-xl md:text-2xl text-blue-100 mb-4 font-semibold">

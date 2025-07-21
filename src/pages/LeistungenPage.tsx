@@ -154,20 +154,20 @@ const LeistungenPage = () => {
             <div className="space-y-6">
               <div className="relative">
                 <img
-                  src="/gallery/20230127_205018-scaled-e1675456487570.jpg"
+                  src="/public/gallery/20230127_205018-scaled-e1675456487570.jpg"
                   alt="Wärmeisolierung Heizungsanlage"
                   className="rounded-2xl shadow-2xl w-full h-80 object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-2xl"></div>
                 <div className="absolute bottom-4 left-4 text-white">
-                  <p className="font-semibold">Professionelle Heizungsanlage</p>
+                  <p className="font-semibold">Komplette kalteisolierrung</p>
                   <p className="text-sm opacity-90">Komplette Wärmeisolierung</p>
                 </div>
               </div>
               
               <div className="relative">
                 <img
-                  src="/gallery/20230127_205847-scaled.jpg"
+                  src="/public/gallery/20230127_205847-scaled.jpg"
                   alt="Isolierte Rohrleitungen"
                   className="rounded-2xl shadow-2xl w-full h-64 object-cover"
                 />
@@ -193,28 +193,20 @@ const LeistungenPage = () => {
             <div className="space-y-6 order-2 lg:order-1">
               <div className="relative">
                 <img
-                  src="/gallery/IMG-20230122-WA0005.jpg"
+                  src="https://images.pexels.com/photos/1250407/pexels-photo-1250407.jpeg?auto=compress&cs=tinysrgb&w=600"
                   alt="Kälteisolierung Kühlhaus"
                   className="rounded-2xl shadow-2xl w-full h-80 object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-2xl"></div>
-                <div className="absolute bottom-4 left-4 text-white">
-                  <p className="font-semibold">Industrielle Kälteisolierung</p>
-                  <p className="text-sm opacity-90">Kühlhaus-Dämmung</p>
-                </div>
               </div>
               
               <div className="relative">
                 <img
-                  src="/gallery/IMG_20220324_150532-low_res-scale-6_00x-gigapixel-scaled.jpg"
+                  src="https://images.pexels.com/photos/1029802/pexels-photo-1029802.jpeg?auto=compress&cs=tinysrgb&w=600"
                   alt="Klimaanlage Isolierung"
                   className="rounded-2xl shadow-2xl w-full h-64 object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-2xl"></div>
-                <div className="absolute bottom-4 left-4 text-white">
-                  <p className="font-semibold">Klimaanlagen-Isolierung</p>
-                  <p className="text-sm opacity-90">Moderne Kältetechnik</p>
-                </div>
               </div>
             </div>
 
@@ -307,14 +299,6 @@ const LeistungenPage = () => {
               <h3 className="font-bold text-gray-800 mb-2">Dampfdiffusionsdicht</h3>
               <p className="text-gray-600 text-sm">Spezielle Dämmung gegen Schwitzwasserbildung</p>
             </div>
-
-            <div className="text-center p-6 bg-gray-50 rounded-xl">
-              <div className="bg-green-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                <CheckCircle className="w-8 h-8 text-green-600" />
-              </div>
-              <h3 className="font-bold text-gray-800 mb-2">Qualitätsgarantie</h3>
-              <p className="text-gray-600 text-sm">13+ Jahre Erfahrung und bewährte Verfahren</p>
-            </div>
           </div>
         </div>
       </section>
@@ -343,7 +327,7 @@ const LeistungenPage = () => {
             </a>
           </div>
           <p className="text-blue-200 mt-6 text-sm">
-            Schnelle Antwort innerhalb von 72 Stunden garantiert
+            Schnelle Antwort innerhalb von 24 Stunden garantiert
           </p>
         </div>
       </section>
