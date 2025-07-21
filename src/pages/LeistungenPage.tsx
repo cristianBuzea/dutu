@@ -154,7 +154,7 @@ const LeistungenPage = () => {
             <div className="space-y-6">
               <div className="relative">
                 <img
-                  src="/public/gallery/20230127_205018-scaled-e1675456487570.jpg"
+                  src="/gallery/20230127_205018-scaled-e1675456487570.jpg"
                   alt="Wärmeisolierung Heizungsanlage"
                   className="rounded-2xl shadow-2xl w-full h-80 object-cover"
                 />
@@ -167,7 +167,7 @@ const LeistungenPage = () => {
               
               <div className="relative">
                 <img
-                  src="/public/gallery/20230127_205847-scaled.jpg"
+                  src="/gallery/20230127_205847-scaled.jpg"
                   alt="Isolierte Rohrleitungen"
                   className="rounded-2xl shadow-2xl w-full h-64 object-cover"
                 />
