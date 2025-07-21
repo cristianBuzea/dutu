@@ -17,11 +17,6 @@ const About = () => {
       icon: <Clock className="w-6 h-6" />,
       title: "Pünktliche Ausführung",
       description: "Termingerechte Projektabwicklung"
-    },
-    {
-      icon: <Shield className="w-6 h-6" />,
-      title: "Qualitätsgarantie",
-      description: "Langfristige Sicherheit für Ihre Investition"
     }
   ];
 
@@ -29,7 +24,7 @@ const About = () => {
     <section id="about" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Left side - Image */}
+          {/* Left side - Image with gradient */}
           <div className="relative">
             <div className="relative z-10">
               <img
