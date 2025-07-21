@@ -6,7 +6,7 @@ const ContactCTA = () => {
     <section className="py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-green-700 relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-20">
-        <div className="absolute inset-0 bg-[url('/WhatsApp%20Image%202025-06-28%20at%208.07.25%20AM.jpeg')] bg-cover bg-center"></div>
+        <div className="absolute inset-0 bg-[url('/public/WhatsApp%20Image%202025-06-28%20at%208.07.25%20AM.jpeg')] bg-cover bg-center"></div>
       </div>
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -52,7 +52,7 @@ const ContactCTA = () => {
             Kostenlose Beratung anfordern
           </a>
           <p className="text-blue-100 mt-4">
-            Schnelle Antwort innerhalb von 72 Stunden garantiert
+            Schnelle Antwort innerhalb von 24 Stunden garantiert
           </p>
         </div>
       </div>

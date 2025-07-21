@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,23 +10,24 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <Link to="/" className="h-12 flex items-center justify-center">
-              <img src="/logo-Dutu-motage-isolier.jpg" width="170" />
-            </Link>
+            <a href="/" className="h-12 flex items-center justify-center">
+              <img src="public/logo-Dutu-motage-isolier.jpg" width="170" />
+            </a>
+            
             
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <Link to="/" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
+            <a href="/" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
               Über uns
-            </Link>
-            <Link to="/leistungen" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
+            </a>
+            <a href="/leistungen" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
               Leistungen
-            </Link>
-            <Link to="/galeria" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
-              Galeria
-            </Link>
+            </a>
+            <a href="/gallery" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
+              Galerie
+            </a>
             <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
               Kontakt
             </a>
@@ -65,15 +65,18 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden bg-white border-t border-gray-200">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <Link to="/" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors duration-200">
+              <a href="/" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors duration-200">
                 Über uns
-              </Link>
-              <Link to="/leistungen" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors duration-200">
+              </a>
+              <a href="#services" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors duration-200">
                 Leistungen
-              </Link>
-              <Link to="/galeria" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors duration-200">
-                Galeria
-              </Link>
+              </a>
+              <a href="/leistungen" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors duration-200">
+                Alle Leistungen
+              </a>
+              <a href="/gallery" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors duration-200">
+                Galerie
+              </a>
               <a href="#contact" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors duration-200">
                 Kontakt
               </a>

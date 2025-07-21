@@ -33,7 +33,7 @@ const About = () => {
           <div className="relative">
             <div className="relative z-10">
               <img
-                src="/WhatsApp%20Image%202025-06-28%20at%208.07.25%20AM.jpeg"
+                src="/public/WhatsApp%20Image%202025-06-28%20at%208.07.25%20AM.jpeg"
                 alt="Professional Insulation Installation - Heating System"
                 className="rounded-2xl shadow-2xl w-full h-96 object-cover"
               />

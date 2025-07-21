@@ -26,22 +26,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Wärmeisolierungen Stuttgart
+                  Wärmeisolierungen
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Kälteisolierungen Ludwigsburg
+                  Kälteisolierungen
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Isoliermontage Bietigheim
+                  Isoliermontage
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">
-                  Dämmungsberatung Region Stuttgart
+                  Dämmungsberatung
                 </a>
               </li>
             </ul>

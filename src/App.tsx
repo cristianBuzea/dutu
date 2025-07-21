@@ -5,10 +5,9 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import About from './components/About';
 import Gallery from './components/Gallery';
-import Testimonials from './components/Testimonials';
 import ContactCTA from './components/ContactCTA';
 import Footer from './components/Footer';
-import GaleriaPage from './pages/GalleryPage';
+import GalleryPage from './pages/GalleryPage';
 import LeistungenPage from './pages/LeistungenPage';
 
 function App() {
@@ -23,12 +22,11 @@ function App() {
               <Services />
               <About />
               <Gallery />
-              <Testimonials />
               <ContactCTA />
               <Footer />
             </>
           } />
-          <Route path="/galeria" element={<GaleriaPage />} />
+          <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/leistungen" element={<LeistungenPage />} />
         </Routes>
       </div>

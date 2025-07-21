@@ -5,44 +5,44 @@ const Gallery = () => {
   const projects = [
     {
       id: 1,
-      title: "Heizungsanlage Komplettisolierung",
+      title: "Kälteanlage mit Kautschuk isolier",
       category: "Wärmeisolierung",
-      image: "/gallery/20230127_205018-scaled-e1675456487570.jpg",
+      image: "/public/gallery/20230127_205018-scaled-e1675456487570.jpg",
       description: "Vollständige Isolierung einer modernen Heizungsanlage mit professioneller Dämmung aller Rohrleitungen und Komponenten"
     },
     {
       id: 2,
       title: "Rohrleitungssystem Sanierung",
       category: "Wärmeisolierung",
-      image: "/gallery/20230127_205455-scaled.jpg",
+      image: "/public/gallery/20230127_205455-scaled.jpg",
       description: "Fachgerechte Erneuerung der Rohrleitungsisolierung mit hochwertigen Dämmmaterialien"
     },
     {
       id: 3,
       title: "Heizungsverteiler Modernisierung",
       category: "Wärmeisolierung",
-      image: "/gallery/20230127_205847-scaled.jpg",
+      image: "/public/gallery/20230127_205847-scaled.jpg",
       description: "Komplette Neuisolierung des Heizungsverteilers für optimale Energieeffizienz"
     },
     {
       id: 4,
-      title: "Rohrleitungen Einzelisolierung",
+      title: "Regenwaser Leitung isolierung",
       category: "Wärmeisolierung",
-      image: "/gallery/20230127_210135-scaled.jpg",
+      image: "/public/gallery/20230127_210135-scaled.jpg",
       description: "Präzise Isolierung einzelner Rohrleitungsabschnitte mit maßgeschneiderten Lösungen"
     },
     {
       id: 5,
       title: "Deckenmontage Rohrleitungen",
       category: "Wärmeisolierung",
-      image: "/gallery/20230127_210430-scaled.jpg",
+      image: "/public/gallery/20230127_210430-scaled.jpg",
       description: "Professionelle Isolierung von Deckenleitungen mit vollständiger Dämmummantelung"
     },
     {
       id: 6,
       title: "Industrielle Wärmeisolierung",
       category: "Wärmeisolierung",
-      image: "/gallery/IMG-20230122-WA0005.jpg",
+      image: "https://images.pexels.com/photos/356043/pexels-photo-356043.jpeg?auto=compress&cs=tinysrgb&w=600",
       description: "Komplette Rohrleitungsisolierung in Produktionsanlage"
     }
   ];
@@ -91,7 +91,7 @@ const Gallery = () => {
 
         <div className="text-center mt-12">
           <a 
-            href="/galeria" 
+            href="/gallery" 
             className="inline-flex items-center bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors duration-200 transform hover:scale-105"
           >
             Zur vollständigen Galerie

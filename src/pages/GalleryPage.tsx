@@ -3,80 +3,73 @@ import { ArrowLeft, Filter, Grid, List } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-const GaleriaPage = () => {
+const GalleryPage = () => {
   const [selectedCategory, setSelectedCategory] = useState('Alle');
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
 
   const allProjects = [
     {
       id: 1,
-      title: "Heizungsanlage Komplettisolierung",
+      title: "Kälteanlage mit Kautschuk isolier",
       category: "Wärmeisolierung",
-      image: "/gallery/20230127_205018-scaled-e1675456487570.jpg",
+      image: "/public/gallery/20230127_205018-scaled-e1675456487570.jpg",
       description: "Vollständige Isolierung einer modernen Heizungsanlage mit professioneller Dämmung aller Rohrleitungen und Komponenten. Das Projekt umfasste die komplette Erneuerung der Isolierung sowie die Installation neuer Dämmschalen.",
       year: "2023",
-      location: "München",
       duration: "3 Tage"
     },
     {
       id: 2,
       title: "Rohrleitungssystem Sanierung",
       category: "Wärmeisolierung",
-      image: "/gallery/20230127_205455-scaled.jpg",
+      image: "/public/gallery/20230127_205455-scaled.jpg",
       description: "Fachgerechte Erneuerung der Rohrleitungsisolierung mit hochwertigen Dämmmaterialien. Komplette Sanierung eines älteren Rohrleitungssystems mit modernen Isoliermaterialien für optimale Energieeffizienz.",
       year: "2023",
-      location: "Berlin",
       duration: "2 Tage"
     },
     {
       id: 3,
       title: "Heizungsverteiler Modernisierung",
       category: "Wärmeisolierung",
-      image: "/gallery/20230127_205847-scaled.jpg",
+      image: "/public/gallery/20230127_205847-scaled.jpg",
       description: "Komplette Neuisolierung des Heizungsverteilers für optimale Energieeffizienz. Modernisierung einer veralteten Heizungsverteilung mit neuen Isoliermaterialien und verbesserter Wärmedämmung.",
       year: "2023",
-      location: "Hamburg",
       duration: "4 Tage"
     },
     {
       id: 4,
       title: "Rohrleitungen Einzelisolierung",
       category: "Wärmeisolierung",
-      image: "/gallery/20230127_210135-scaled.jpg",
+      image: "/public/gallery/20230127_210135-scaled.jpg",
       description: "Präzise Isolierung einzelner Rohrleitungsabschnitte mit maßgeschneiderten Lösungen. Individuelle Anpassung der Dämmung an spezielle Rohrleitungsführungen und -durchmesser.",
       year: "2023",
-      location: "Frankfurt",
       duration: "1 Tag"
-    },
-    {
-      id: 5,
-      title: "Deckenmontage Rohrleitungen",
-      category: "Wärmeisolierung",
-      image: "/gallery/20230127_210430-scaled.jpg",
-      description: "Professionelle Isolierung von Deckenleitungen mit vollständiger Dämmummantelung. Komplexe Montagearbeiten in schwer zugänglichen Deckenbereichen mit speziellen Befestigungssystemen.",
-      year: "2023",
-      location: "Köln",
-      duration: "2 Tage"
     },
     {
       id: 6,
       title: "Industrielle Wärmeisolierung",
       category: "Wärmeisolierung",
-      image: "/gallery/IMG-20230122-WA0005.jpg",
+      image: "https://images.pexels.com/photos/356043/pexels-photo-356043.jpeg?auto=compress&cs=tinysrgb&w=600",
       description: "Komplette Rohrleitungsisolierung in Produktionsanlage mit speziellen Anforderungen für industrielle Anwendungen.",
       year: "2023",
-      location: "Stuttgart",
       duration: "5 Tage"
     },
     {
-      id: 7,
-      title: "Kälteisolierung Kühlhaus",
-      category: "Kälteisolierung",
-      image: "/gallery/IMG_20220324_150532-low_res-scale-6_00x-gigapixel-scaled.jpg",
-      description: "Professionelle Dämmung für optimale Kühlung in einem großen Kühlhaus mit speziellen Kälteisolierungsmaterialien.",
+      id: 8,
+      title: "Heizungsrohre Wohngebäude",
+      category: "Wärmeisolierung",
+      image: "https://images.pexels.com/photos/834892/pexels-photo-834892.jpeg?auto=compress&cs=tinysrgb&w=600",
+      description: "Energieeffiziente Isolierung im Wohnbereich für reduzierte Heizkosten und verbesserten Wohnkomfort.",
       year: "2023",
-      location: "Düsseldorf",
-      duration: "6 Tage"
+      duration: "3 Tage"
+    },
+    {
+      id: 9,
+      title: "Klimaanlage Bürogebäude",
+      category: "Kälteisolierung",
+      image: "https://images.pexels.com/photos/1029802/pexels-photo-1029802.jpeg?auto=compress&cs=tinysrgb&w=600",
+      description: "Moderne Isolierungslösungen für Klimasysteme in einem großen Bürogebäude mit komplexer Lüftungsanlage.",
+      year: "2023",
+      duration: "4 Tage"
     }
   ];
 
@@ -194,7 +187,6 @@ const GaleriaPage = () => {
                     </div>
                     <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <div className="flex justify-between items-center text-sm">
-                        <span>{project.location}</span>
                         <span>{project.year}</span>
                       </div>
                     </div>
@@ -243,7 +235,6 @@ const GaleriaPage = () => {
                           </span>
                         </div>
                         <div className="text-right text-sm text-gray-500">
-                          <div>{project.location}</div>
                           <div>{project.year}</div>
                         </div>
                       </div>
@@ -299,4 +290,4 @@ const GaleriaPage = () => {
   );
 };
 
-export default GaleriaPage;
+export default GalleryPage;
