@@ -8,72 +8,257 @@ const GalleryPage = () => {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
 
   const allProjects = [
+    // New category: Isolierung Aussen wärmepumpen anlage
     {
-      id: 1,
-      title: "Kälteanlage mit Kautschuk isolier",
-      category: "Wärmeisolierung",
-      image: "/gallery/20230127_205018-scaled-e1675456487570.jpg",
-      description: "Vollständige Isolierung einer modernen Heizungsanlage mit professioneller Dämmung aller Rohrleitungen und Komponenten. Das Projekt umfasste die komplette Erneuerung der Isolierung sowie die Installation neuer Dämmschalen.",
-      year: "2023",
-      duration: "3 Tage"
-    },
-    {
-      id: 2,
-      title: "Rohrleitungssystem Sanierung",
-      category: "Wärmeisolierung",
-      image: "/gallery/20230127_205455-scaled.jpg",
-      description: "Fachgerechte Erneuerung der Rohrleitungsisolierung mit hochwertigen Dämmmaterialien. Komplette Sanierung eines älteren Rohrleitungssystems mit modernen Isoliermaterialien für optimale Energieeffizienz.",
-      year: "2023",
-      duration: "2 Tage"
-    },
-    {
-      id: 3,
-      title: "Heizungsverteiler Modernisierung",
-      category: "Wärmeisolierung",
-      image: "/gallery/20230127_205847-scaled.jpg",
-      description: "Komplette Neuisolierung des Heizungsverteilers für optimale Energieeffizienz. Modernisierung einer veralteten Heizungsverteilung mit neuen Isoliermaterialien und verbesserter Wärmedämmung.",
-      year: "2023",
-      duration: "4 Tage"
-    },
-    {
-      id: 4,
-      title: "Rohrleitungen Einzelisolierung",
-      category: "Wärmeisolierung",
-      image: "/gallery/20230127_210135-scaled.jpg",
-      description: "Präzise Isolierung einzelner Rohrleitungsabschnitte mit maßgeschneiderten Lösungen. Individuelle Anpassung der Dämmung an spezielle Rohrleitungsführungen und -durchmesser.",
-      year: "2023",
+      id: 101,
+      title: "Außenisolierung Wärmepumpenanlage 1",
+      category: "Isolierung Aussen wärmepumpen anlage",
+      image: "/gallery/warmepunpen/WhatsApp Image 2025-07-07 at 1.24.05 PM (3).jpeg",
+      description: "Professionelle Außenisolierung einer Wärmepumpenanlage.",
+      year: "2025",
       duration: "1 Tag"
     },
     {
-      id: 6,
-      title: "Industrielle Wärmeisolierung",
-      category: "Wärmeisolierung",
-      image: "https://images.pexels.com/photos/356043/pexels-photo-356043.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Komplette Rohrleitungsisolierung in Produktionsanlage mit speziellen Anforderungen für industrielle Anwendungen.",
-      year: "2023",
-      duration: "5 Tage"
+      id: 102,
+      title: "Außenisolierung Wärmepumpenanlage 2",
+      category: "Isolierung Aussen wärmepumpen anlage",
+      image: "/gallery/warmepunpen/WhatsApp Image 2025-07-07 at 1.24.05 PM (4).jpeg",
+      description: "Professionelle Außenisolierung einer Wärmepumpenanlage.",
+      year: "2025",
+      duration: "1 Tag"
     },
     {
-      id: 8,
-      title: "Heizungsrohre Wohngebäude",
-      category: "Wärmeisolierung",
-      image: "https://images.pexels.com/photos/834892/pexels-photo-834892.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Energieeffiziente Isolierung im Wohnbereich für reduzierte Heizkosten und verbesserten Wohnkomfort.",
-      year: "2023",
-      duration: "3 Tage"
+      id: 103,
+      title: "Außenisolierung Wärmepumpenanlage 3",
+      category: "Isolierung Aussen wärmepumpen anlage",
+      image: "/gallery/warmepunpen/WhatsApp Image 2025-07-07 at 1.24.05 PM (5).jpeg",
+      description: "Professionelle Außenisolierung einer Wärmepumpenanlage.",
+      year: "2025",
+      duration: "1 Tag"
     },
     {
-      id: 9,
-      title: "Klimaanlage Bürogebäude",
-      category: "Kälteisolierung",
-      image: "https://images.pexels.com/photos/1029802/pexels-photo-1029802.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Moderne Isolierungslösungen für Klimasysteme in einem großen Bürogebäude mit komplexer Lüftungsanlage.",
-      year: "2023",
-      duration: "4 Tage"
+      id: 104,
+      title: "Außenisolierung Wärmepumpenanlage 4",
+      category: "Isolierung Aussen wärmepumpen anlage",
+      image: "/gallery/warmepunpen/WhatsApp Image 2025-07-07 at 1.24.06 PM (4).jpeg",
+      description: "Professionelle Außenisolierung einer Wärmepumpenanlage.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 105,
+      title: "Außenisolierung Wärmepumpenanlage 5",
+      category: "Isolierung Aussen wärmepumpen anlage",
+      image: "/gallery/warmepunpen/WhatsApp Image 2025-07-07 at 1.24.06 PM (5).jpeg",
+      description: "Professionelle Außenisolierung einer Wärmepumpenanlage.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 106,
+      title: "Außenisolierung Wärmepumpenanlage 6",
+      category: "Isolierung Aussen wärmepumpen anlage",
+      image: "/gallery/warmepunpen/WhatsApp Image 2025-07-07 at 1.24.06 PM (6).jpeg",
+      description: "Professionelle Außenisolierung einer Wärmepumpenanlage.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 107,
+      title: "Außenisolierung Wärmepumpenanlage 7",
+      category: "Isolierung Aussen wärmepumpen anlage",
+      image: "/gallery/warmepunpen/WhatsApp Image 2025-07-07 at 1.24.06 PM (7).jpeg",
+      description: "Professionelle Außenisolierung einer Wärmepumpenanlage.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    // Neue Bilder für Wärmeisolierung
+    {
+      id: 201,
+      title: "Wärmeisolierung Projekt 1",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.29 PM (5).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 202,
+      title: "Wärmeisolierung Projekt 2",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.29 PM (6).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 203,
+      title: "Wärmeisolierung Projekt 3",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.29 PM (7).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 204,
+      title: "Wärmeisolierung Projekt 4",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.29 PM (8).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 205,
+      title: "Wärmeisolierung Projekt 5",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.29 PM (9).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 206,
+      title: "Wärmeisolierung Projekt 6",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.30 PM (9).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 207,
+      title: "Wärmeisolierung Projekt 7",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.30 PM (10).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 208,
+      title: "Wärmeisolierung Projekt 8",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.30 PM (11).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 209,
+      title: "Wärmeisolierung Projekt 9",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.30 PM (12).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 210,
+      title: "Wärmeisolierung Projekt 10",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.30 PM (13).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    // Neue Bilder für Demontage
+    {
+      id: 301,
+      title: "Demontage Projekt 1",
+      category: "Demontage",
+      image: "/gallery/DEMONTAGE/WhatsApp Image 2025-07-07 at 1.15.49 PM (4).jpeg",
+      description: "DEMONTAGE ALTE ISOLIERUNG Fachgerechte Erneuerung der Rohrleitungsisolierung mit hochwertigen Dämmmaterialien",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 302,
+      title: "Demontage Projekt 2",
+      category: "Demontage",
+      image: "/gallery/DEMONTAGE/WhatsApp Image 2025-07-07 at 1.15.49 PM (5).jpeg",
+      description: "DEMONTAGE ALTE ISOLIERUNG Fachgerechte Erneuerung der Rohrleitungsisolierung mit hochwertigen Dämmmaterialien",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 303,
+      title: "Demontage Projekt 3",
+      category: "Demontage",
+      image: "/gallery/DEMONTAGE/WhatsApp Image 2025-07-07 at 1.15.49 PM (6).jpeg",
+      description: "DEMONTAGE ALTE ISOLIERUNG Fachgerechte Erneuerung der Rohrleitungsisolierung mit hochwertigen Dämmmaterialien",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 304,
+      title: "Demontage Projekt 4",
+      category: "Demontage",
+      image: "/gallery/DEMONTAGE/WhatsApp Image 2025-07-07 at 1.15.49 PM (7).jpeg",
+      description: "DEMONTAGE ALTE ISOLIERUNG Fachgerechte Erneuerung der Rohrleitungsisolierung mit hochwertigen Dämmmaterialien",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    // Neue Bilder für Warmeisolierung mit Alu-grobkornfolie
+    {
+      id: 401,
+      title: "Warmeisolierung mit Alu-grobkornfolie 1",
+      category: "Warmeisolierung mit Alu-grobkornfolie",
+      image: "/gallery/Alu-grobkornfolie/WhatsApp Image 2025-07-07 at 1.20.28 PM (5).jpeg",
+      description: "Professionelle Warmeisolierung mit Alu-grobkornfolie – Beispiel aus der Praxis.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 402,
+      title: "Warmeisolierung mit Alu-grobkornfolie 2",
+      category: "Warmeisolierung mit Alu-grobkornfolie",
+      image: "/gallery/Alu-grobkornfolie/WhatsApp Image 2025-07-07 at 1.20.28 PM (6).jpeg",
+      description: "Professionelle Warmeisolierung mit Alu-grobkornfolie – Beispiel aus der Praxis.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 403,
+      title: "Warmeisolierung mit Alu-grobkornfolie 3",
+      category: "Warmeisolierung mit Alu-grobkornfolie",
+      image: "/gallery/Alu-grobkornfolie/WhatsApp Image 2025-07-07 at 1.20.28 PM (7).jpeg",
+      description: "Professionelle Warmeisolierung mit Alu-grobkornfolie – Beispiel aus der Praxis.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    // Neue Bilder für KÄLTEISOLIEUNG
+    {
+      id: 501,
+      title: "Kälteisolierung Projekt 1",
+      category: "KÄLTEISOLIEUNG",
+      image: "/gallery/Kalteisolieung-dutu/WhatsApp Image 2025-07-07 at 1.13.35 PM (1).jpeg",
+      description: "Professionelle Kälteisolierung – Beispiel aus der Praxis.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 502,
+      title: "Kälteisolierung Projekt 2",
+      category: "KÄLTEISOLIEUNG",
+      image: "/gallery/Kalteisolieung-dutu/WhatsApp Image 2025-07-07 at 1.13.36 PM (2).jpeg",
+      description: "Professionelle Kälteisolierung – Beispiel aus der Praxis.",
+      year: "2025",
+      duration: "1 Tag"
+    },
+    {
+      id: 503,
+      title: "Kälteisolierung Projekt 3",
+      category: "KÄLTEISOLIEUNG",
+      image: "/gallery/Kalteisolieung-dutu/WhatsApp Image 2025-07-07 at 1.13.36 PM (3).jpeg",
+      description: "Professionelle Kälteisolierung – Beispiel aus der Praxis.",
+      year: "2025",
+      duration: "1 Tag"
     }
   ];
 
-  const categories = ['Alle', 'Wärmeisolierung', 'Kälteisolierung'];
+  const categories = ['Alle', 'Wärmeisolierung', 'Isolierung Aussen wärmepumpen anlage', 'Demontage', 'Warmeisolierung mit Alu-grobkornfolie', 'Kälteisolieung'];
 
   const filteredProjects = selectedCategory === 'Alle' 
     ? allProjects 
@@ -101,6 +286,30 @@ const GalleryPage = () => {
                 <ArrowLeft className="w-5 h-5 mr-2" />
                 Zurück zur Startseite
               </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Video Showcase Section */}
+      <section className="py-12 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="flex flex-col items-center">
+              <video controls poster="/gallery/20230127_205018-scaled-e1675456487570.jpg" className="w-full rounded-xl shadow-lg mb-4">
+                <source src="/video/warmeisolierung-dutu.mp4" type="video/mp4" />
+                Ihr Browser unterstützt das Video-Tag nicht.
+              </video>
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">Wärmeisolierung</h3>
+              <p className="text-gray-600 text-center">Einblick in die professionelle Wärmeisolierung durch unser Team.</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <video controls poster="/gallery/20230127_205455-scaled.jpg" className="w-full rounded-xl shadow-lg mb-4">
+                <source src="/video/kalteisolierung-dutu.mp4" type="video/mp4" />
+                Ihr Browser unterstützt das Video-Tag nicht.
+              </video>
+              <h3 className="text-lg font-semibold text-gray-800 mb-2">Kälteisolierung</h3>
+              <p className="text-gray-600 text-center">Einblick in die professionelle Kälteisolierung durch unser Team.</p>
             </div>
           </div>
         </div>
@@ -199,7 +408,6 @@ const GalleryPage = () => {
                       {project.description}
                     </p>
                     <div className="flex justify-between items-center text-sm text-gray-500">
-                      <span>Dauer: {project.duration}</span>
                       <span className="flex items-center">
                         <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
                         Abgeschlossen

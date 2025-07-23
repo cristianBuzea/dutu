@@ -25,7 +25,7 @@ const Header = () => {
             <a href="/leistungen" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
               Leistungen
             </a>
-            <a href="/gallery" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
+            <a href="/galerie" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
               Galerie
             </a>
             <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
@@ -74,7 +74,7 @@ const Header = () => {
               <a href="/leistungen" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors duration-200">
                 Alle Leistungen
               </a>
-              <a href="/gallery" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors duration-200">
+              <a href="/galerie" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors duration-200">
                 Galerie
               </a>
               <a href="#contact" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors duration-200">

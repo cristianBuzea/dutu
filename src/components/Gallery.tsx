@@ -44,8 +44,162 @@ const Gallery = () => {
       category: "Wärmeisolierung",
       image: "https://images.pexels.com/photos/356043/pexels-photo-356043.jpeg?auto=compress&cs=tinysrgb&w=600",
       description: "Komplette Rohrleitungsisolierung in Produktionsanlage"
-    }
+    },
+    // Neue Bilder für Wärmeisolierung
+    {
+      id: 201,
+      title: "Wärmeisolierung Projekt 1",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.29 PM (5).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis."
+    },
+    {
+      id: 202,
+      title: "Wärmeisolierung Projekt 2",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.29 PM (6).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis."
+    },
+    {
+      id: 203,
+      title: "Wärmeisolierung Projekt 3",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.29 PM (7).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis."
+    },
+    {
+      id: 204,
+      title: "Wärmeisolierung Projekt 4",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.29 PM (8).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis."
+    },
+    {
+      id: 205,
+      title: "Wärmeisolierung Projekt 5",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.29 PM (9).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis."
+    },
+    {
+      id: 206,
+      title: "Wärmeisolierung Projekt 6",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.30 PM (9).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis."
+    },
+    {
+      id: 207,
+      title: "Wärmeisolierung Projekt 7",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.30 PM (10).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis."
+    },
+    {
+      id: 208,
+      title: "Wärmeisolierung Projekt 8",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.30 PM (11).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis."
+    },
+    {
+      id: 209,
+      title: "Wärmeisolierung Projekt 9",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.30 PM (12).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis."
+    },
+    {
+      id: 210,
+      title: "Wärmeisolierung Projekt 10",
+      category: "Wärmeisolierung",
+      image: "/gallery/WARMEISLIERNG/WhatsApp Image 2025-07-07 at 1.09.30 PM (13).jpeg",
+      description: "Professionelle Wärmeisolierung – Beispiel aus der Praxis."
+    },
+    // Neue Bilder für Demontage
+    {
+      id: 301,
+      title: "Demontage Projekt 1",
+      category: "Demontage",
+      image: "/gallery/DEMONTAGE/WhatsApp Image 2025-07-07 at 1.15.49 PM (4).jpeg",
+      description: "DEMONTAGE ALTE ISOLIERUNG Fachgerechte Erneuerung der Rohrleitungsisolierung mit hochwertigen Dämmmaterialien"
+    },
+    {
+      id: 302,
+      title: "Demontage Projekt 2",
+      category: "Demontage",
+      image: "/gallery/DEMONTAGE/WhatsApp Image 2025-07-07 at 1.15.49 PM (5).jpeg",
+      description: "DEMONTAGE ALTE ISOLIERUNG Fachgerechte Erneuerung der Rohrleitungsisolierung mit hochwertigen Dämmmaterialien"
+    },
+    {
+      id: 303,
+      title: "Demontage Projekt 3",
+      category: "Demontage",
+      image: "/gallery/DEMONTAGE/WhatsApp Image 2025-07-07 at 1.15.49 PM (6).jpeg",
+      description: "DEMONTAGE ALTE ISOLIERUNG Fachgerechte Erneuerung der Rohrleitungsisolierung mit hochwertigen Dämmmaterialien"
+    },
+    {
+      id: 304,
+      title: "Demontage Projekt 4",
+      category: "Demontage",
+      image: "/gallery/DEMONTAGE/WhatsApp Image 2025-07-07 at 1.15.49 PM (7).jpeg",
+      description: "DEMONTAGE ALTE ISOLIERUNG Fachgerechte Erneuerung der Rohrleitungsisolierung mit hochwertigen Dämmmaterialien"
+    },
+    // Neue Bilder für Warmeisolierung mit Alu-grobkornfolie
+    {
+      id: 401,
+      title: "Warmeisolierung mit Alu-grobkornfolie 1",
+      category: "Warmeisolierung mit Alu-grobkornfolie",
+      image: "/gallery/Alu-grobkornfolie/WhatsApp Image 2025-07-07 at 1.20.28 PM (5).jpeg",
+      description: "Professionelle Warmeisolierung mit Alu-grobkornfolie – Beispiel aus der Praxis."
+    },
+    {
+      id: 402,
+      title: "Warmeisolierung mit Alu-grobkornfolie 2",
+      category: "Warmeisolierung mit Alu-grobkornfolie",
+      image: "/gallery/Alu-grobkornfolie/WhatsApp Image 2025-07-07 at 1.20.28 PM (6).jpeg",
+      description: "Professionelle Warmeisolierung mit Alu-grobkornfolie – Beispiel aus der Praxis."
+    },
+    {
+      id: 403,
+      title: "Warmeisolierung mit Alu-grobkornfolie 3",
+      category: "Warmeisolierung mit Alu-grobkornfolie",
+      image: "/gallery/Alu-grobkornfolie/WhatsApp Image 2025-07-07 at 1.20.28 PM (7).jpeg",
+      description: "Professionelle Warmeisolierung mit Alu-grobkornfolie – Beispiel aus der Praxis."
+    },
+    // Neue Bilder für KÄLTEISOLIEUNG
+    {
+      id: 501,
+      title: "Kälteisolierung Projekt 1",
+      category: "KÄLTEISOLIEUNG",
+      image: "/gallery/Kalteisolieung-dutu/WhatsApp Image 2025-07-07 at 1.13.35 PM (1).jpeg",
+      description: "Professionelle Kälteisolierung – Beispiel aus der Praxis."
+    },
+    {
+      id: 502,
+      title: "Kälteisolierung Projekt 2",
+      category: "KÄLTEISOLIEUNG",
+      image: "/gallery/Kalteisolieung-dutu/WhatsApp Image 2025-07-07 at 1.13.36 PM (2).jpeg",
+      description: "Professionelle Kälteisolierung – Beispiel aus der Praxis."
+    },
+    {
+      id: 503,
+      title: "Kälteisolierung Projekt 3",
+      category: "KÄLTEISOLIEUNG",
+      image: "/gallery/Kalteisolieung-dutu/WhatsApp Image 2025-07-07 at 1.13.36 PM (3).jpeg",
+      description: "Professionelle Kälteisolierung – Beispiel aus der Praxis."
+    },
   ];
+
+  // Group projects by category and take up to 2 from each
+  type Project = typeof projects[number];
+  const projectsByCategory: Project[] = Object.values(
+    projects.reduce((acc: Record<string, Project[]>, project: Project) => {
+      if (!acc[project.category]) acc[project.category] = [];
+      if (acc[project.category].length < 2) acc[project.category].push(project);
+      return acc;
+    }, {} as Record<string, Project[]>)
+  ).flat();
 
   return (
     <section id="gallery" className="py-20 bg-gray-50">
@@ -61,7 +215,7 @@ const Gallery = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project) => (
+          {projectsByCategory.map((project) => (
             <div
               key={project.id}
               className="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2"
@@ -91,7 +245,7 @@ const Gallery = () => {
 
         <div className="text-center mt-12">
           <a 
-            href="/gallery" 
+            href="/galerie" 
             className="inline-flex items-center bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors duration-200 transform hover:scale-105"
           >
             Zur vollständigen Galerie

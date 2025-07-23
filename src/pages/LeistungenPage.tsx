@@ -89,6 +89,19 @@ const LeistungenPage = () => {
                 Mehr erfahren →
               </a>
             </div>
+
+            {/* Demontage Service Card */}
+            <div className="bg-gradient-to-br from-gray-50 to-gray-200 rounded-2xl p-8 border border-gray-100 md:col-span-2">
+              <div className="flex items-center mb-6">
+                <div className="bg-gradient-to-br from-gray-600 to-gray-400 rounded-full p-4 mr-4">
+                  <Shield className="w-8 h-8 text-white" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-800">Demontage alte Isolierung</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                DEMONTAGE ALTE ISOLIERUNG Fachgerechte Erneuerung der Rohrleitungsisolierung mit hochwertigen Dämmmaterialien
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -275,7 +288,7 @@ const LeistungenPage = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="text-center p-6 bg-gray-50 rounded-xl">
               <div className="bg-orange-100 rounded-full p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                 <Thermometer className="w-8 h-8 text-orange-600" />

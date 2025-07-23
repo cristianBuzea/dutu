@@ -9,6 +9,7 @@ import ContactCTA from './components/ContactCTA';
 import Footer from './components/Footer';
 import GalleryPage from './pages/GalleryPage';
 import LeistungenPage from './pages/LeistungenPage';
+import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
   return (
@@ -26,8 +27,9 @@ function App() {
               <Footer />
             </>
           } />
-          <Route path="/gallery" element={<GalleryPage />} />
+          <Route path="/galerie" element={<GalleryPage />} />
           <Route path="/leistungen" element={<LeistungenPage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </div>
     </Router>

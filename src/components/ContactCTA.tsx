@@ -3,7 +3,7 @@ import { Phone, Mail, MapPin } from 'lucide-react';
 
 const ContactCTA = () => {
   return (
-    <section className="py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-green-700 relative overflow-hidden">
+    <section id="contact" className="py-20 bg-gradient-to-br from-blue-900 via-blue-800 to-green-700 relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute inset-0 bg-[url('/WhatsApp%20Image%202025-06-28%20at%208.07.25%20AM.jpeg')] bg-cover bg-center"></div>
