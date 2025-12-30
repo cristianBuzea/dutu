@@ -167,7 +167,7 @@ const LeistungenPage = () => {
             <div className="space-y-6">
               <div className="relative">
                 <img
-                  src="/gallery/20230127_205018-scaled-e1675456487570.jpg"
+                  src="/gallery/WARMEISLIERNG/warme-isolierungen-1.jpeg"
                   alt="Wärmeisolierung Heizungsanlage"
                   className="rounded-2xl shadow-2xl w-full h-80 object-cover"
                 />
@@ -180,7 +180,7 @@ const LeistungenPage = () => {
               
               <div className="relative">
                 <img
-                  src="/gallery/20230127_205847-scaled.jpg"
+                  src="/gallery/WARMEISLIERNG/warme-isolierungen-2.jpeg"
                   alt="Isolierte Rohrleitungen"
                   className="rounded-2xl shadow-2xl w-full h-64 object-cover"
                 />
@@ -206,8 +206,8 @@ const LeistungenPage = () => {
             <div className="space-y-6 order-2 lg:order-1">
               <div className="relative">
                 <img
-                  src="https://images.pexels.com/photos/1250407/pexels-photo-1250407.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt="Kälteisolierung Kühlhaus"
+                  src="/gallery/20230127_205018-scaled-e1675456487570.jpg"
+                  alt="Wärmeisolierung Heizungsanlage"
                   className="rounded-2xl shadow-2xl w-full h-80 object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-2xl"></div>
@@ -215,8 +215,8 @@ const LeistungenPage = () => {
               
               <div className="relative">
                 <img
-                  src="https://images.pexels.com/photos/1029802/pexels-photo-1029802.jpeg?auto=compress&cs=tinysrgb&w=600"
-                  alt="Klimaanlage Isolierung"
+                  src="/gallery/20230127_205847-scaled.jpg"
+                  alt="Isolierte Rohrleitungen"
                   className="rounded-2xl shadow-2xl w-full h-64 object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-2xl"></div>

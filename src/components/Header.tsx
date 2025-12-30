@@ -1,8 +1,46 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone } from 'lucide-react';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  // Handle scroll to contact section when hash is present in URL
+  useEffect(() => {
+    if (location.pathname === '/' && window.location.hash === '#contact') {
+      setTimeout(() => {
+        const contactElement = document.getElementById('contact');
+        if (contactElement) {
+          contactElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    }
+  }, [location]);
+
+  const handleContactClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    setIsMenuOpen(false); // Close mobile menu if open
+    
+    if (location.pathname === '/') {
+      // Already on homepage, just scroll to contact
+      const contactElement = document.getElementById('contact');
+      if (contactElement) {
+        contactElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      // Navigate to homepage first, then scroll to contact
+      navigate('/');
+      // Use setTimeout to ensure the page has loaded before scrolling
+      setTimeout(() => {
+        const contactElement = document.getElementById('contact');
+        if (contactElement) {
+          contactElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 300);
+    }
+  };
 
   return (
     <header className="bg-white shadow-lg sticky top-0 z-50">
@@ -28,7 +66,11 @@ const Header = () => {
             <a href="/galerie" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
               Galerie
             </a>
-            <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors duration-200">
+            <a 
+              href="#contact" 
+              onClick={handleContactClick}
+              className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
+            >
               Kontakt
             </a>
           </nav>
@@ -77,7 +119,11 @@ const Header = () => {
               <a href="/galerie" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors duration-200">
                 Galerie
               </a>
-              <a href="#contact" className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors duration-200">
+              <a 
+                href="#contact" 
+                onClick={handleContactClick}
+                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors duration-200"
+              >
                 Kontakt
               </a>
               <div className="px-3 py-2">
